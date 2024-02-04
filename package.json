@@ -1,0 +1,29 @@
+{
+  "name": "tehtavat",
+  "version": "1.0.0",
+  "description": "Osan 3 tehtävät",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PekkaKalpio/NodeJs.git"
+  },
+  "author": "Pekka Kalpio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PekkaKalpio/NodeJs/issues"
+  },
+  "homepage": "https://github.com/PekkaKalpio/NodeJs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
