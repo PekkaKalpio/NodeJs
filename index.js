@@ -10,7 +10,7 @@ const mongoose = require('mongoose')
 const Person = require('./models/person')
 const ObjectId = require('mongodb').ObjectId
 
-//const password = process.argv[2]
+const password = process.argv[2]
 
 morgan.token('body', request => {
     if(request.method === 'POST'){
