@@ -20,10 +20,10 @@ morgan.token('body', request => {
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :body'))
 //oliko tässä tarkoitus käyttää split loggausta siten että POST näyttää tämän ja muut morgan("tiny")?
 //jos oli niin meni minulta ns yli hilseen se miten split loggaus toimii dokumentaation mukaan eikä googlestakaan ollut apua
-/*
+
 const url =
   `mongodb+srv://kalpiopekka:${password}@fullstack-tehtava.qs0sajj.mongodb.net/phonebook?retryWrites=true&w=majority`
-*/
+
 
 let persons = []
 
